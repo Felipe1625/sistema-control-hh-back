@@ -6,10 +6,6 @@
     "node": "12.13.0"
   },
   "main": "index.js",
-  "scripts": {
-    "build": "tsc -w",
-    "dev": "nodemon build/index.js"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
