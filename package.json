@@ -2,11 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "12.13.0"
-  },
-  "start": "node server.js",
   "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon build/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
