@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "12.13.0"
+    "node": "12.13.0",
+    "npm": "5.6.0"
   },
-  "scripts": {
-    "build": "tsc -w",
-    "dev": "nodemon build/index.js"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
